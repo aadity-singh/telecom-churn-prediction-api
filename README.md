@@ -1,18 +1,22 @@
 📞 Telecom Churn Prediction API
+
    Machine Learning–Powered REST API to Predict Customer Churn
 
 🚀 Project Overview
+
    Customer churn is one of the biggest challenges for telecom companies.
    This project delivers a production-ready Machine Learning API that predicts whether a customer is likely to churn based on their usage patterns, contract details, and service preferences.
    The solution follows industry-standard ML engineering practices, including data preprocessing pipelines, model serialization, explainability (SHAP), and API deployment readiness.
 
 🎯 Key Objectives
+
     Predict customer churn (Yes / No) with high reliability
     Provide a scalable REST API for real-time predictions
     Maintain clean, modular ML architecture
     Enable model interpretability for business insights.
 
 🧠 Machine Learning Approach
+
     Problem Type: Binary Classification
     Target Variable: Churn
     Model Pipeline:
@@ -22,6 +26,7 @@
       SHAP for explainability
 
 🛠️ Tech Stack
+
     Category	                   Tools
     Language	                   Python
     API Framework              	 FastAPI
@@ -33,6 +38,7 @@
     Deployment Ready	         Render / Cloud
 
 📁 Project Structure
+
     telecom-churn-prediction-api/
     │
     ├── app/
@@ -52,6 +58,7 @@
 
 
 🔌 API Endpoints
+
  ➤ Health Check:
    GET /
    
@@ -86,12 +93,14 @@
     }
 
  📊 Model Explainability (SHAP)
+ 
     This project integrates SHAP (SHapley Additive Explanations) to:
     Understand feature impact on churn predictions
     Improve transparency for business stakeholders
     Support data-driven retention strategies
 
   ▶️ Run Locally
+  
   1️⃣ Clone the repository
   git clone https://github.com/aadity-singh/telecom-churn-prediction-api.git
   cd telecom-churn-prediction-api
@@ -113,6 +122,7 @@
   http://127.0.0.1:8000/docs
 
 ⭐ Why This Project Stands Out
+
     Unlike basic ML notebooks or demo apps, this project is built with a production-first mindset:
     End-to-End ML Pipeline – from preprocessing to prediction via a live API
     Real Business Problem – telecom churn directly impacts revenue & retention
@@ -123,6 +133,7 @@
 📌 This project demonstrates both Data Science and Machine Learning Engineering skills, making it suitable for Data Scientist, ML Engineer, and Analyst roles.
 
 🔮 Next Enhancements (Planned Improvements)
+
     To further improve scalability, reliability, and real-world usability, the following enhancements are planned:
     🔐 Authentication & Authorization
     Secure the API using API keys or OAuth
@@ -138,10 +149,12 @@
     Visualize churn trends and feature importance
     
   🚧 Deployment:
+  
     🚀 Render Deployment: Coming Soon
     (The project is fully cloud-deployment ready.)
     
   📌 Use Cases:
+  
       Customer retention strategy
       CRM system integration
       Telecom business analytics
