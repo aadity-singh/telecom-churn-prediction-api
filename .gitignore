@@ -1,6 +1,9 @@
-# Virtual environment
-#venv/
-#.env
+# Virtual environments
+vtele/
+venv/
+
+# Environment variables
+.env
 
 # Python cache
 __pycache__/
@@ -17,6 +20,6 @@ Thumbs.db
 # Logs
 *.log
 
-# IDE
+# IDEs
 .vscode/
 .idea/
