@@ -121,6 +121,9 @@
   Swagger Docs:
   http://127.0.0.1:8000/docs
 
+  Project Screenshots:
+  link: https://github.com/aadity-singh/telecom-churn-prediction-api/tree/main/screenshots
+
 ⭐ Why This Project Stands Out
 
     Unlike basic ML notebooks or demo apps, this project is built with a production-first mindset:
